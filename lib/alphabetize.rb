@@ -3,4 +3,5 @@ def alphabetize(arr)
     sentence.split(" ").map do |character|
       ESPERANTO_ALPHABET.index(character)
     end 
+  end
 end

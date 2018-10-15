@@ -1,4 +1,4 @@
 def alphabetize(arr)
   arr.sort_by |sentence|
-    sentence.split(" ")
+    sentence.split(" ").map do 
 end
